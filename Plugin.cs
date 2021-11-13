@@ -18,7 +18,7 @@ namespace SigilArtPatch
     {
         private const string PluginGuid = "MADH.inscryption.SigilArtPatch";
         private const string PluginName = "SigilArtPatch";
-        private const string PluginVersion = "1.0.0.0";
+        private const string PluginVersion = "1.1.0.0";
 
         static readonly string[] artPath = { Paths.PluginPath, "Artwork" };
 
@@ -40,8 +40,11 @@ namespace SigilArtPatch
             {
                 { "SkeletonStrafe", this.LoadTexture( "SkeletonStrafe", Path.Combine( ArtPath, textures[ 0 ] ) ) },
                 { "SquirrelStrafe", this.LoadTexture( "SquirrelStrafe", Path.Combine( ArtPath, textures[ 1 ] ) ) },
-                { "SubmergeSquid", this.LoadTexture( "SubmergeSquid", Path.Combine( ArtPath, textures[ 2 ] ) ) },
-                { "DrawNewHand", this.LoadTexture( "DrawNewHand", Path.Combine( ArtPath, textures[ 3 ] ) ) }
+                { "SubmergeSquid",  this.LoadTexture( "SubmergeSquid",  Path.Combine( ArtPath, textures[ 2 ] ) ) },
+                { "DrawNewHand",    this.LoadTexture( "DrawNewHand",    Path.Combine( ArtPath, textures[ 3 ] ) ) },
+                { "BombSpawner",    this.LoadTexture( "BombSpawner",    Path.Combine( ArtPath, textures[ 4 ] ) ) },
+                { "DoubleDeath",    this.LoadTexture( "DoubleDeath",    Path.Combine( ArtPath, textures[ 5 ] ) ) },
+                { "Loot",           this.LoadTexture( "Loot",           Path.Combine( ArtPath, textures[ 6 ] ) ) }
             };
 
         }
@@ -50,10 +53,13 @@ namespace SigilArtPatch
         {
             return new()
             {
-                Config.Bind( "SigilArtPatch", "SkeletonStrafe", "skelestrafe.png" ).Value,
-                Config.Bind( "SigilArtPatch", "SquirrelStrafe", "squirrelstrafe.png" ).Value,
-                Config.Bind( "SigilArtPatch", "SubmergeSquid", "tentacle.png" ).Value,
-                Config.Bind( "SigilArtPatch", "DrawNewHand", "redrawhand.png" ).Value,
+                Config.Bind( "SigilArtPatch", "SkeletonStrafe", "SkeletonStrafe.png" ).Value,
+                Config.Bind( "SigilArtPatch", "SquirrelStrafe", "SquirrelStrafe.png" ).Value,
+                Config.Bind( "SigilArtPatch", "SubmergeSquid",  "SubmergeSquid.png"  ).Value,
+                Config.Bind( "SigilArtPatch", "DrawNewHand",    "DrawNewHand.png"    ).Value,
+                Config.Bind( "SigilArtPatch", "BombSpawner",    "BombSpawner.png"    ).Value,
+                Config.Bind( "SigilArtPatch", "DoubleDeath",    "DoubleDeath.png"    ).Value,
+                Config.Bind( "SigilArtPatch", "Loot",           "Loot.png"           ).Value
             };
         }
 
