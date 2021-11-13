@@ -1,0 +1,9 @@
+{
+	"name": "SigilArtPatch",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/MADH95/JSONCardLoaderPlugin",
+	"description": "This is a BepInEx plugin made for Incryption to fix the black square that occurs when act2 sigils are used in act1",
+	"dependencies": [
+		"BepInEx-BepInExPack_Inscryption-5.4.1701"
+	]
+}
