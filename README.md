@@ -8,6 +8,8 @@ Currently Added art for:
  - BombSpawner
  - DoubleDeath
  - Loot
+ - ConduitEnergy
+ - ConduitFactory
  
  If you know any others feel free to ping me in the #card-creation channel of the modding discord.
  
