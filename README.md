@@ -1,23 +1,34 @@
 # SigilArtFix
 
 ## Thanks
-Huge thanks to LavaErrorDoggo on discord for the Artwork! <3
+Huge thanks to LavaErrorDoggo & Blind, the Bound Dragon on discord for the Artwork! <3
 
 ## Sigils Fixed
 Currently Added art for:
+ - ActivatedDealDamage
+ - ActivatedDrawSkeleton
+ - ActivatedEnergyToBones
+ - ActivatedHeal
+ - ActivatedRandomPowerBone
+ - ActivatedRandomPowerEnergy
+ - ActivatedSacrificeDrawCards
+ - ActivatedStatsUp
+ - ActivatedStatsUpEnergy
+ - BombSpawner
+ - ConduitEnergy
+ - ConduitFactory
+ - ConduitHeal
+ - DoubleDeath
+ - DrawNewHand
+ - GainGemTriple
+ - Loot
  - SkeletonStrafe
  - SquirrelStrafe
  - SubmergeSquid
- - DrawNewHand
- - BombSpawner
- - DoubleDeath
- - Loot
- - ConduitEnergy
- - ConduitFactory
 
 If you know any others feel free to ping me in the #card-creation channel of the modding discord.
 
-## Installation -
+## Installation
 ### Automatic
 Now usable with Thunderstore mod manager!
 

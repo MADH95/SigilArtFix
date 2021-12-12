@@ -23,7 +23,7 @@ namespace SigilArtPatch
         public const string APIGUID = "cyantist.inscryption.api";
         private const string PluginGUID = "MADH.inscryption.SigilArtPatch";
         private const string PluginName = "SigilArtPatch";
-        private const string PluginVersion = "1.4.0.0";
+        private const string PluginVersion = "1.5.0.0";
 
         internal static ManualLogSource Log;
 

@@ -1,6 +1,6 @@
 {
 	"name": "SigilArtPatch",
-	"version_number": "1.4.0",
+	"version_number": "1.5.0",
 	"website_url": "https://github.com/MADH95/SigilArtFix",
 	"description": "This is a BepInEx plugin made for Incryption to fix the black square that occurs when act2 sigils are used in act1",
 	"dependencies": [
