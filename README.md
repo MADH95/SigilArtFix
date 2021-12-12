@@ -1,7 +1,7 @@
 # SigilArtFix
 
 ## Thanks
-Huge thanks to LavaErrorDoggo & Blind, the Bound Dragon on discord for the Artwork! <3
+Huge thanks to LavaErrorDoggo & Blind, the Bound Demon on discord for the Artwork! <3
 
 ## Sigils Fixed
 Currently Added art for:
